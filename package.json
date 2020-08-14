@@ -1,0 +1,33 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api for the community website",
+  "main": "app.js",
+  "scripts": {
+    "test": "eslint ./",
+    "start": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSCBITDurg/community-site.git"
+  },
+  "keywords": [
+    "community-site"
+  ],
+  "author": "dsc-bitdurg rohitgeddam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DSCBITDurg/community-site/issues"
+  },
+  "homepage": "https://github.com/DSCBITDurg/community-site#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "nodemon": "^2.0.4"
+  }
+}
